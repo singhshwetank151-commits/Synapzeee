@@ -3,18 +3,9 @@
 import { Menu, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import navigation from '@/lib/content/navigation.json';
 import Link from "next/link";
-
-const DISCORD_INVITE =
-  "https://cdn.discordapp.com/avatars/1416616696072114328/6633eef3407144f786f3786bd75ca69f.png?size=1024";
 
 export function Header() {
   const { headerLinks } = navigation;
@@ -26,14 +17,57 @@ export function Header() {
           <Logo />
           <p className="text-xl font-bold font-headline">Synapse</p>
         </Link>
-
+        
         <nav className="hidden md:flex items-center gap-6">
           {headerLinks.map(link => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-            >
+            <Link key={link.href} href={link.href} className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="hidden md:block">
+          <Button className="group breathing-button">
+            Add to Discord 
+            <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
+          </Button>
+        </div>
+        
+        <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Open menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+              <SheetHeader>
+                <SheetTitle className="sr-only">Menu</SheetTitle>
+              </SheetHeader>
+              <div className="grid gap-4 py-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <Logo />
+                  <p className="text-xl font-bold font-headline">Synapse</p>
+                </div>
+                <nav className="grid gap-4">
+                  {headerLinks.map(link => (
+                    <Link key={link.href} href={link.href} className="text-base font-medium text-foreground hover:text-primary">
+                      {link.label}
+                    </Link>
+                  ))}
+                </nav>
+                <Button className="breathing-button mt-4">
+                  Add to Discord <ArrowRight />
+                </Button>
+              </div>
+            </SheetContent>
+          </Sheet>
+        </div>
+      </div>
+    </header>
+  );
+}
               {link.label}
             </Link>
           ))}
