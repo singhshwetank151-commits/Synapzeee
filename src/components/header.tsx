@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
-        <Link href="https://discord.com/oauth2/authorize?client_id=1416616696072114328&permissions=8&scope=bot%20applications.commands" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           <Logo />
           <p className="text-xl font-bold font-headline">Synapse</p>
         </Link>
