@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "badge": "An intelligent, refined Discord companion",
+    "title": "Synapse",
+    "description": "Synapse is a modern, high-performance Discord bot designed with elegance and precision. It combines a premium music experience, advanced moderation, intelligent automation, and beautifully crafted interfaces — all built for reliability, scalability, and control.",
+    "ctaPrimary": "Add to Discord"
+  },
+  "featuresSection": {
+    "title": "Everything Your Server Deserves",
+    "description": "Synapse brings balance, security, and intelligence to your community — quietly and efficiently.",
+    "features": [
+      {
+        "icon": "Music",
+        "title": "Refined Music System",
+        "description": "Crystal-clear, stable music playback with support for YouTube, Spotify, playlists, queues, and lyrics."
+      },
+      {
+        "icon": "Palette",
+        "title": "Elegant Interface",
+        "description": "Premium embeds, canvas-based welcome banners, profile cards, and fully customizable visuals."
+      },
+      {
+        "icon": "Shield",
+        "title": "Advanced Security",
+        "description": "Powerful Anti-Nuke protection, intelligent AutoMod, logging, and complete moderation control."
+      },
+      {
+        "icon": "Zap",
+        "title": "Smart Automation",
+        "description": "Auto-roles, auto-responses, auto-reactions, verification systems, and voice automation."
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Engagement & Utility",
+        "description": "Interactive games, leveling, profiles, utilities, and community-focused features."
+      },
+      {
+        "icon": "PencilRuler",
+        "title": "Modern Architecture",
+        "description": "Built using the latest JavaScript ecosystem with MongoDB, optimized for speed, stability, and scale."
+      }
+    ]
+  }
+}

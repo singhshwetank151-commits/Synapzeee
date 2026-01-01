@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "name": "Music",
+      "commands": [
+        { "name": "play", "description": "Plays a song from YouTube, Spotify, etc.", "badge": "" },
+        { "name": "search", "description": "Search for a song.", "badge": "" },
+        { "name": "skip", "description": "Skips the current song.", "badge": "" },
+        { "name": "pause", "description": "Pauses the music.", "badge": "" },
+        { "name": "resume", "description": "Resumes the music.", "badge": "" },
+        { "name": "queue", "description": "Shows the current music queue.", "badge": "" },
+        { "name": "clearqueue", "description": "Clears the music queue.", "badge": "" },
+        { "name": "lyrics", "description": "Gets lyrics for the current song.", "badge": "Premium" },
+        { "name": "volume", "description": "Adjusts music volume.", "badge": "" },
+        { "name": "twentyfourseven", "description": "Keeps the bot in voice channel 24/7.", "badge": "Premium" }
+      ]
+    },
+
+    {
+      "name": "Moderation",
+      "commands": [
+        { "name": "kick", "description": "Kicks a member from the server.", "badge": "Admin" },
+        { "name": "ban", "description": "Bans a member from the server.", "badge": "Admin" },
+        { "name": "mute", "description": "Mutes a member.", "badge": "Mod" },
+        { "name": "warn", "description": "Warns a member.", "badge": "Mod" },
+        { "name": "clear", "description": "Deletes messages in bulk.", "badge": "Mod" },
+        { "name": "lock", "description": "Locks a channel.", "badge": "Mod" },
+        { "name": "unlock", "description": "Unlocks a channel.", "badge": "Mod" }
+      ]
+    },
+
+    {
+      "name": "AI",
+      "commands": [
+        { "name": "ai activate", "description": "Enable AI system.", "badge": "" },
+        { "name": "ai deactivate", "description": "Disable AI system.", "badge": "" },
+        { "name": "ai ask", "description": "Ask AI a question.", "badge": "" },
+        { "name": "ai explain", "description": "Explain a topic using AI.", "badge": "" },
+        { "name": "ai summarize", "description": "Summarize text using AI.", "badge": "Premium" },
+        { "name": "ai code", "description": "Generate or explain code.", "badge": "Premium" }
+      ]
+    },
+
+    {
+      "name": "Automod",
+      "commands": [
+        { "name": "automod enable", "description": "Enable automod system.", "badge": "Admin" },
+        { "name": "automod disable", "description": "Disable automod system.", "badge": "Admin" },
+        { "name": "automod punishment", "description": "Configure automod punishment.", "badge": "Admin" },
+        { "name": "blacklistword add", "description": "Add a blacklisted word.", "badge": "Admin" },
+        { "name": "blacklistword remove", "description": "Remove a blacklisted word.", "badge": "Admin" }
+      ]
+    },
+
+    {
+      "name": "Antinuke",
+      "commands": [
+        { "name": "antinuke enable", "description": "Enable antinuke protection.", "badge": "Admin" },
+        { "name": "antinuke disable", "description": "Disable antinuke protection.", "badge": "Admin" },
+        { "name": "whitelist add", "description": "Whitelist a trusted user.", "badge": "Owner" },
+        { "name": "whitelist reset", "description": "Reset whitelist.", "badge": "Owner" }
+      ]
+    },
+
+    {
+      "name": "Ticket System",
+      "commands": [
+        { "name": "ticket setup", "description": "Setup ticket system.", "badge": "Admin" },
+        { "name": "ticket close", "description": "Close a ticket.", "badge": "" },
+        { "name": "ticket claim", "description": "Claim a ticket.", "badge": "Staff" },
+        { "name": "ticket transcript", "description": "Generate ticket transcript.", "badge": "Premium" }
+      ]
+    },
+
+    {
+      "name": "Leveling",
+      "commands": [
+        { "name": "level rank", "description": "Shows your rank.", "badge": "" },
+        { "name": "level leaderboard", "description": "Shows server leaderboard.", "badge": "" },
+        { "name": "level xpboost", "description": "Manage XP boosts.", "badge": "Admin" }
+      ]
+    },
+
+    {
+      "name": "Fun & Utility",
+      "commands": [
+        { "name": "profile", "description": "Displays your server profile.", "badge": "" },
+        { "name": "meme", "description": "Generate a random meme.", "badge": "" },
+        { "name": "weather", "description": "Shows weather info.", "badge": "" },
+        { "name": "avatar", "description": "Displays user avatar.", "badge": "" },
+        { "name": "banner", "description": "Displays user banner.", "badge": "" }
+      ]
+    },
+
+    {
+      "name": "Games",
+      "commands": [
+        { "name": "blackjack", "description": "Play blackjack.", "badge": "" },
+        { "name": "chess", "description": "Play chess.", "badge": "" },
+        { "name": "tic-tac-toe", "description": "Play tic tac toe.", "badge": "" },
+        { "name": "wordle", "description": "Play wordle.", "badge": "" }
+      ]
+    },
+
+    {
+      "name": "Voice",
+      "commands": [
+        { "name": "voice mute", "description": "Mute a user in VC.", "badge": "Mod" },
+        { "name": "voice move", "description": "Move a user to another VC.", "badge": "Mod" },
+        { "name": "voice lock", "description": "Lock a voice channel.", "badge": "Admin" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Documentation",
+  "description": "Everything you need to get started with Synapse and unlock its full potential. From first-time setup to advanced systems, this documentation guides you through every step with clarity and precision.",
+  "categories": [
+    {
+      "title": "Getting Started",
+      "description": "Learn how to add Synapse to your server and complete the initial setup.",
+      "content": "To add Synapse to your Discord server, click the 'Add to Discord' button on the official Synapse website. You will be redirected to Discord to authorize the bot. Ensure you have the 'Manage Server' permission to continue. Once added, Synapse automatically initializes essential systems and provides setup guidance to help you get started smoothly."
+    },
+    {
+      "title": "Music System",
+      "description": "Guides for using music commands, managing queues, and optimizing audio playback.",
+      "content": "Synapse offers a refined music experience designed for stability and quality. Join a voice channel and use the `/play` command with a song name or URL to begin playback. Control the queue using `/queue`, skip tracks with `/skip`, and view lyrics with `/lyrics`. Premium users gain access to enhanced audio performance and priority playback for a superior listening experience."
+    },
+    {
+      "title": "Moderation",
+      "description": "Learn how to protect your server using Synapse’s advanced moderation systems.",
+      "content": "Maintain order and security with Synapse’s powerful moderation tools. Core commands include `/kick`, `/ban`, and `/mute`. Advanced systems such as AutoMod and Anti-Nuke can be configured through the Synapse dashboard, allowing you to define protections, thresholds, and trusted roles. These systems work silently in the background to keep your server safe."
+    },
+    {
+      "title": "Customization",
+      "description": "Personalize embeds, messages, and visual elements to match your server’s identity.",
+      "content": "Synapse is built to adapt to your server’s style. Through the dashboard, you can customize welcome messages, level-up embeds, profile cards, and other visual elements. Adjust colors, thumbnails, backgrounds, and message layouts to create a consistent and elegant experience for your community."
+    }
+  ]
+}
