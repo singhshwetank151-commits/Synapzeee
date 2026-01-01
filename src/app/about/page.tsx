@@ -71,8 +71,8 @@ export default function AboutPage() {
             
             <div data-animate-group>
               <Image 
-                src="https://picsum.photos/seed/about-us/1200/600" 
-                alt="About Arrkiii" 
+                src="https://cdn.discordapp.com/avatars/1416616696072114328/6633eef3407144f786f3786bd75ca69f.png?size=1024" 
+                alt="About Synapse" 
                 width={1200}
                 height={600}
                 className="rounded-lg shadow-2xl mb-16 opacity-0"
